@@ -121,11 +121,17 @@ In OBS,
 ### Create Broadcast/Stream (in YouTube) via OBS
 The following steps will create a stream/broadcast in YouTube Studio from within OBS.   
 In OBS:
-1. In the **Controls** panel: Click **Manage Broadcast**. 
-![contols](./IMAGES/startstreamingbutton.png) 
-2. In the **Create New Broadcast** tab: Fill in the information related to the YouTube broadcast/stream to create. To embed the YouTube stream into an external website, stream privacy needs to be “unlisted” or “public”.
-![createnewbroadcast](./IMAGES/createnewbroadcast.png)
-3. Click **Create broadcast and start streaming**
+
+1.  In the **Controls** panel:   
+![contols](./IMAGES/startstreamingbutton.png)   
+2. (Optional for reduced delay) Click **Settings**:
+* Click **Advanced** in local menu > Disable the **Stream Delay** feature and enable the **Automatically Reconnect** feature with the minimum **Retry Delay** value.
+* Click **Video** in local menu: Make sure that the **Base (Canvas) Resolution** and **Output (Scaled) Resolution** fields have the same value. Select a high value for the **Common FPS Values** field, e.g. 60. 
+* Click **OK**
+3. Click **Manage Broadcast** in the **Controls** Panel. 
+4. In the **Create New Broadcast** tab: Fill in the information related to the YouTube broadcast/stream to create. To embed the YouTube stream into an external website, stream privacy needs to be “unlisted” or “public”. (Optional for reduced delay) Set the field **Latency** in the **Additional settings** section to **Ultra Low** or **Low**.   
+![createnewbroadcast](./IMAGES/createnewbroadcast.png)   
+5. Click **Create broadcast and start streaming**
 
 > Note: Unlisted videos can be seen and shared by anyone with the link. They won’t appear to others who visit the "Videos" tab of your channel page and shouldn't show up in YouTube's search results unless someone adds an Unlisted video to a Public playlist. However, they are not Private. 
 
